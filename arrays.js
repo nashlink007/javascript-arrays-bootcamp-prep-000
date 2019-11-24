@@ -39,7 +39,10 @@ function removeElementFromEndOfArray(array) {
  array.slice(0)
  return array.slice(n)
 }
+
 function removeElementFromEndOfArray(array) {
-  array.pop()
+let copy=array.slice()
+copy.pop()
+  
   return array
 }
