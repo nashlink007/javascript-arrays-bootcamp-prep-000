@@ -41,8 +41,6 @@ function removeElementFromEndOfArray(array) {
 }
 
 function removeElementFromEndOfArray(array) {
-let copy=array.slice()
-copy.pop()
-  
-  return array
+return array.slice(0,array.length-1)
+
 }
