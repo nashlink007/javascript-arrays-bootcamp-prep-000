@@ -40,6 +40,6 @@ function removeElementFromEndOfArray(array) {
  return array.slice(n)
 }
 function removeElementFromEndOfArray(array) {
-  array.slice(n)
+  array.pop()
   return array
 }
